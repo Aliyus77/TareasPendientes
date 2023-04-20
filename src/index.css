@@ -2,6 +2,8 @@ body {
   margin: 0;
   padding: 0;
   background-image: url(./images/preview.jpg);
+  background-size: cover;
+  background-position: center;
   color: #1E1E1F;
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 }
