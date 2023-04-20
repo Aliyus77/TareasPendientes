@@ -5,7 +5,7 @@ import { TodoSearch } from "../TodoSearch";
 import { TodoList } from "../TodoList/index.js";
 import { TodoItem } from "../TodoItem/index.js";
 import { TodoForm } from "../TodoForm";
-import { CreateTodoButtom } from "../CreateTodoButtom/index.js";
+import { CreateTodoButton } from "../CreateTodoButton/index.js";
 import { Modal } from "../Modal";
 import { TodosError } from "../TodoError";
 import { TodosLoading } from "../TodosLoading";
@@ -48,7 +48,7 @@ function AppUI() {
             </Modal>
         )}        
         
-        <CreateTodoButtom 
+        <CreateTodoButton 
             setOpenModal={setOpenModal}
         />
     </React.Fragment>
