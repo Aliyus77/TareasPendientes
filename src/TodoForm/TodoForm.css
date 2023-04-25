@@ -60,7 +60,7 @@ textarea:focus {
     width: 120px;
     height: 48px;
     border-radius: 2px;
-    border: none;
+    border: 1px solid #409ad2;
     font-family: 'Montserrat';
 }
 

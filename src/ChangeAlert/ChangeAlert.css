@@ -1,0 +1,44 @@
+.ChangeAlert-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #1e1e1f50;
+    z-index: 2;
+}
+
+.ChangeAlert-container {
+    display: block;
+    position: fixed;
+    top: 250px;
+    bottom: 250px;
+    left: -10px;    
+    right: -10px;
+    padding: 34px;
+    background: linear-gradient(90deg, rgb(138, 221, 270), rgb(170, 210, 225));
+    background-size: 400% 400%;
+    animation: loadingAnimation 3s ease-in-out infinite;
+    color: #090909;
+    z-index: 2;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.ChangeAlert-container button {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+@keyframes loadingAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
